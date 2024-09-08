@@ -1,0 +1,134 @@
+/*EXTRA SMALL MOVILE DEVICE*/
+
+@media screen and (min-width: 156px) and (max-width: 265px) {
+
+    .flexbox {
+        flex-direction: column;
+        width: 100%;
+        margin-top: 0;
+        display: flex;
+    }
+
+
+}
+
+
+/*IMPORTANT MEDIA QUERY START */
+
+
+/*******FOR MOBILE VIEW*******/
+
+
+@media screen and (max-width: 767px) {
+
+
+
+    /*Hero Section Media Query Start*/
+
+    #heading #secondh1 {
+        margin-left: 31px;
+    }
+    
+    .home_hero_description {
+/*  font-size: 11px; */*/
+        /* display: none; */
+        line-height: 1.3;
+        text-indent: -1px;
+}
+
+    #page1 h1 {
+
+        font-size: 13vw;
+        color: white;
+        text-transform: uppercase;
+        font-family: "NeueHaasDisplay, sans-serif " !important;
+        line-height: 1;
+        opacity: .6;
+/*        margin-left: 14px;*/
+/*        display: flex;*/
+        text-align: -webkit-match-parent;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+    }
+
+
+    /*Hero Section Media Query End*/
+
+
+    /*Main Service Media Query Start*/
+
+    .services__list {
+        grid-template-columns: 1fr;
+    }
+
+    .services__item {
+        padding-top: 2em;
+        padding-bottom: 2em;
+        padding-left: 0;
+    }
+
+    .services__item::before {
+        top: auto;
+        height: 1px;
+        width: 100%;
+    }
+
+    .services__item span {
+        margin-bottom: 40px;
+    }
+
+    .services__item p {
+        max-width: 22em;
+    }
+
+    .box-flex {
+        display: flex;
+        gap: 38px;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+}
+
+/*Main Service Media Query End*/
+
+
+
+
+/*******FOR TABLET VIEW*******/
+
+
+
+@media screen and (max-width: 900px) {
+
+
+    /*Playground Media Query Start*/
+
+
+    .playground-flex {
+        grid-column-gap: 12px;
+        grid-row-gap: 12px;
+        grid-template-rows: auto auto;
+        grid-template-columns: 1fr 1fr;
+        grid-auto-columns: 1fr;
+        display: grid;
+
+    }
+
+
+    /*Playground Media Query End*/
+
+
+    
+   body #minicircle{
+        
+        display: none;
+    }
+
+    
+   
+    
+}
